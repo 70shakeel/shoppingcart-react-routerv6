@@ -1,0 +1,89 @@
+.shoelist {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+.lnk {
+  text-align: start;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .shoelist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .shoelist {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+  }
+}
+
+.shoe {
+  position: relative;
+}
+.shoe .btn {
+  display: inline-block !important;
+  background-color: transparent;
+  position: absolute;
+  top: 10%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: white;
+  font-size: 3rem;
+  border: none;
+  cursor: pointer;
+  outline: none;
+
+  border: 2px solid white;
+}
+.shoe .btn:hover {
+  background-color: white;
+  color: black;
+}
+.App {
+  text-align: center;
+  background-color: aliceblue;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
