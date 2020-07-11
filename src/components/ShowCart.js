@@ -22,7 +22,7 @@ const ShowCart = () => {
               {item.size} ${item.price}
               &nbsp;
               <button className="btn" onClick={() => handleRemoveItem(item.id)}>
-                x
+                X
               </button>
             </li>
           </div>
