@@ -14,7 +14,6 @@ import sh6 from "./img/6.jpg";
 import sh7 from "./img/7.jpg";
 import sh8 from "./img/8.jpg";
 import sh9 from "./img/9.jpg";
-import sh10 from "./img/10.jpg";
 import sh11 from "./img/11.jpg";
 import sh12 from "./img/12.jpg";
 import sh13 from "./img/13.jpg";
