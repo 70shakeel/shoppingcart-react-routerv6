@@ -3,7 +3,7 @@ import GlobalContext from "../context/GlobalContext";
 
 const ShoeList = ({ shoes }) => {
   const [cart, setCart] = useContext(GlobalContext);
-  console.log(shoes);
+  console.log(cart);
 
   return (
     <div className="shoelist">

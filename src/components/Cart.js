@@ -5,6 +5,7 @@ import { faShoppingCart, faMoneyBill } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 const Cart = () => {
   const [cart, setCart] = useContext(GlobalContext);
+  console.log(setCart);
   const totalPrice = cart.reduce((acc, curr) => acc + curr.price, 0);
   console.log(cart);
   return (
